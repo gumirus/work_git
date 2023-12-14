@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentCard</title>
+    <script type="module" src="app.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="backgrounFonStudent">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container text-center my-1">
+        <a class="navbar-brand p-3" href="index.html">
+          <img src="agori.png" alt="log" width="120" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Главная страница</a
+              >
+              <li class="nav-item">
+                <a class="nav-link  active" href="StudentCard.html">Обо мне</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="places.html">Разное</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container2 my-5">
+        <p class="cardStud"><strong>Карточка</strong></p>
+        <div class="info">
+        <img src="https://fs-thb03.getcourse.ru/fileservice/file/thumbnail/h/AB.b894d131465a6b30a4027b7c046fd7cb.jpg/s/300x300/a/177331/sc/131" alt="Гумиров Руслан" class="avatarFoto">
+        <div class="info-text center flex-sm-wrap-reverse">
+            <p><strong >Имя,фамилия:</strong></p>
+            <p><h4>Руслан Гумиров</h4></p>
+            <p><strong id="birth-date"></strong></p> 
+            <p><strong id="start-work"></strong></p>
+            <!-- <p><strong>Учу Frontend два месяца</strong></p> -->
+            <p><strong>О себе:</strong></p>
+            <a href="https://lk.result.school/pl/254492891"
+            class="btn icons nubex"
+            >
+                <p><strong>Junior Frontend-Developer</strong></p>
+            </a>
+        </div>
+        </div>
+        <div class="center">
+            <p class="cardStud"><strong>Мои цели:</strong></p>
+            <p><a href="https://result.school/products/middle-js" class="btn icons nubex">Закончить курс Middle Frontend-Developer</a></p>
+            <p><a href="https://career.habr.com/"class="btn icons nubex">Найти работу - Frontend-Developer</a></p>
+            <!-- <p><a href="https://tproger.ru/articles/junior-developer-should-know/"class="btn icons nubex ">Практиковаться</a> </p> -->
+            <p><a href="https://itproger.com/news/korporativnaya-it-ierarhiya-ili-kto-takie-dzhun-midl-i-senor"class="btn icons nubex">Продолжать развитие до уровни - Middle</a> </p>
+        </div>
+        <div class="center">
+          <p class="cardStud"><strong>Пройденныe курсы:</strong></p>
+          <a href="https://result.school/products/html-css"> 
+          <img
+            src="icons-html-5.png" width="80"
+            class="btn icons"
+            alt="HTML"
+              /></a>
+              <a href="https://result.school/products/html-css">
+              <img
+              src="icons-css3.png" width="80"
+              class="btn icons"
+              alt="CSS"
+            /></a>
+            <a href="https://result.school/products/junior-js"> 
+          <img
+            src="JS.png" width="80"
+            class="btn icons"
+            alt="HTML"
+              /></a>
+        </div>
+        <div class="center">
+        <a
+        href="https://vladilen.notion.site/JavaScript-2022-8d7c0efdb28d4d779ad71c4ce0643151"
+        class="btn icons nubex"><p><strong>Автор Курса: Владилен Минин</strong></p></a>
+        </div>
+        <div class="center">
+          <p class="cardStud"><strong>Контакты:</strong></p>
+            <a
+            href="https://lk.result.school/pl/254492891"
+            class="btn icons"
+          >
+            <img src="school.jpg" alt="school" width="50" />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UC9zhAKWPPYQqqJIzfJXgAYg"
+            class="btn icons"
+          >
+            <img src="youtube.png" alt="youtube" width="50" />
+          </a>
+          <a
+            href="https://github.com/gumirus/"
+            class="btn icons"
+          >
+          <img src="github.png" alt="github" width="50" />
+          </a>
+          <a
+            href="https://t.me/Ruslan_Rascheed"
+  
+            class="btn icons"
+          >
+            <img src="telegram.png" alt="school" width="50" />
+          </a>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
