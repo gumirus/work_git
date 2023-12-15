@@ -44,7 +44,7 @@
   padding: 10px;
 }
 .body {
-  background: url("fon_result_shcool.png");
+  background: url("./img/fon_result_shcool.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
